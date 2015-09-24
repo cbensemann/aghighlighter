@@ -1,26 +1,26 @@
-== hhighlighter (or just h)
+== aghighlighter (or just h)
 
-A tiny utility to highlight multiple keywords with different colors
+A tiny utility to highlight multiple keywords with different colors. Inspired by hhighlighter but works with the silver searcher instead of ack
 
-- Idea: Paolo Antinori
-- Based on: *ack* - http://beyondgrep.com/ written by Andy Lester
+- Idea: Paolo Antinori - https://github.com/paoloantinori/hhighlighter
+- Based on: *ag* - https://github.com/ggreer/the_silver_searcher/
 
 === Description
 
-*h* (hhighlighter is just a name to help search engines) is a really tiny helper script meant to highlight keywords in the output of another *nix command:
+*h* (aghighlighter is just a name to help search engines) is a really tiny helper script meant to highlight keywords in the output of another *nix command:
 
 
 === Requirements
 
-*h* is just a tiny facade in front of *ack* so you need to install it first.
+*h* is just a tiny facade in front of *ag* so you need to install it first.
 
-*What is ack?*
+*What is ag?*
 
-*ack* is a tool like *grep*, optimized for programmers
+*ag* is a tool like *grep*, optimized for programmers and much faster.
 
-Designed for programmers with large heterogeneous trees of source code, ack is written purely in portable Perl 5 and takes advantage of the power of Perl's regular expressions.
+Designed for programmers with large heterogeneous trees of source code.
 
-see: http://beyondgrep.com/
+see: https://github.com/ggreer/the_silver_searcher/
 
 *ack installation*
 
